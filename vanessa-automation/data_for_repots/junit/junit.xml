@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite name="Сбор данных для таблиц Геркин" errors="0" skipped="0" tests="1" failures="0" time="0">
+		<testcase name="Собираю данные для формирования таблиц Геркин" classname="Сбор данных для таблиц Геркин" time="0" StartDate="20231005120806" timestamp="2023-10-05T12:08:06"/>
+	</testsuite>
+</testsuites>
