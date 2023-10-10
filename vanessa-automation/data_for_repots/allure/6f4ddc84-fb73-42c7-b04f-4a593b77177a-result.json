@@ -1,0 +1,2588 @@
+{
+	"uuid": "6f4ddc84-fb73-42c7-b04f-4a593b77177a",
+	"historyId": "Тест страницы КПУ.Я тестирую страницу КПУ",
+	"name": "Я тестирую страницу КПУ",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1696922314257,
+	"stop": 1696922320080,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я перехожу к закладке с именем \"СтраницаКПУ\"",
+			"start": 1696922314284,
+			"stop": 1696922314296,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаКПУ"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И для каждой строки таблицы \"СтраницаКПУ\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922314296,
+			"stop": 1696922315660,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаКПУ"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_1\" я выбираю точное значение 'Клапан КПУ'",
+					"start": 1696922314300,
+					"stop": 1696922314333,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан КПУ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_2\" я выбираю точное значение '1Н'",
+					"start": 1696922314334,
+					"stop": 1696922314368,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "1Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_3\" я выбираю точное значение 'П'",
+					"start": 1696922314369,
+					"stop": 1696922314409,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "П"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_4\" я выбираю точное значение 'Н'",
+					"start": 1696922314410,
+					"stop": 1696922314450,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКПУ_5' я ввожу текст '100'",
+					"start": 1696922314451,
+					"stop": 1696922314479,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_5"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКПУ_6' я ввожу текст '100'",
+					"start": 1696922314480,
+					"stop": 1696922314498,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_6"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_7\" я выбираю точное значение '2*Ф'",
+					"start": 1696922314499,
+					"stop": 1696922314533,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_7"
+						},
+						{
+							"name": "Парам2",
+							"value": "2*Ф"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_8\" я выбираю точное значение 'MV'",
+					"start": 1696922314534,
+					"stop": 1696922314565,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_8"
+						},
+						{
+							"name": "Парам2",
+							"value": "MV"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_9\" я выбираю точное значение '220'",
+					"start": 1696922314566,
+					"stop": 1696922314597,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_9"
+						},
+						{
+							"name": "Парам2",
+							"value": "220"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_11\" я выбираю точное значение 'СН'",
+					"start": 1696922314598,
+					"stop": 1696922314632,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_11"
+						},
+						{
+							"name": "Парам2",
+							"value": "СН"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_12\" я выбираю точное значение '0'",
+					"start": 1696922314633,
+					"stop": 1696922314667,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_12"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_13\" я выбираю точное значение '0'",
+					"start": 1696922314668,
+					"stop": 1696922314703,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_13"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_14\" я выбираю точное значение '0'",
+					"start": 1696922314704,
+					"stop": 1696922314734,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_14"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_15\" я выбираю точное значение '0'",
+					"start": 1696922314735,
+					"stop": 1696922314770,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_15"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_17\" я выбираю точное значение '0'",
+					"start": 1696922314771,
+					"stop": 1696922314803,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_17"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_18\" я выбираю точное значение '0'",
+					"start": 1696922314805,
+					"stop": 1696922314836,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_18"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696922314837,
+					"stop": 1696922314923,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696922315064,
+					"stop": 1696922315157,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696922315160,
+					"stop": 1696922315649,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696922315650,
+					"stop": 1696922315660,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы \"СтраницаКПУ\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922315661,
+			"stop": 1696922316946,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаКПУ"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_1\" я выбираю точное значение 'Клапан КПУ'",
+					"start": 1696922315665,
+					"stop": 1696922315706,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан КПУ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_2\" я выбираю точное значение '1Н'",
+					"start": 1696922315707,
+					"stop": 1696922315754,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "1Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_3\" я выбираю точное значение 'Р'",
+					"start": 1696922315755,
+					"stop": 1696922315791,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "Р"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_4\" я выбираю точное значение 'Н'",
+					"start": 1696922315792,
+					"stop": 1696922315828,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКПУ_5' я ввожу текст '100'",
+					"start": 1696922315829,
+					"stop": 1696922315860,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_5"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКПУ_6' я ввожу текст '100'",
+					"start": 1696922315860,
+					"stop": 1696922315880,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_6"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_7\" я выбираю точное значение '2*Ф'",
+					"start": 1696922315881,
+					"stop": 1696922315914,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_7"
+						},
+						{
+							"name": "Парам2",
+							"value": "2*Ф"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_8\" я выбираю точное значение 'MV'",
+					"start": 1696922315915,
+					"stop": 1696922315946,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_8"
+						},
+						{
+							"name": "Парам2",
+							"value": "MV"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_9\" я выбираю точное значение '220'",
+					"start": 1696922315947,
+					"stop": 1696922315981,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_9"
+						},
+						{
+							"name": "Парам2",
+							"value": "220"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_11\" я выбираю точное значение 'СН'",
+					"start": 1696922315983,
+					"stop": 1696922316015,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_11"
+						},
+						{
+							"name": "Парам2",
+							"value": "СН"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_12\" я выбираю точное значение '0'",
+					"start": 1696922316016,
+					"stop": 1696922316046,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_12"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_13\" я выбираю точное значение '0'",
+					"start": 1696922316047,
+					"stop": 1696922316089,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_13"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_14\" я выбираю точное значение '0'",
+					"start": 1696922316090,
+					"stop": 1696922316129,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_14"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_15\" я выбираю точное значение '0'",
+					"start": 1696922316131,
+					"stop": 1696922316171,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_15"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_17\" я выбираю точное значение '0'",
+					"start": 1696922316172,
+					"stop": 1696922316212,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_17"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_18\" я выбираю точное значение '0'",
+					"start": 1696922316212,
+					"stop": 1696922316253,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_18"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696922316254,
+					"stop": 1696922316333,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696922316335,
+					"stop": 1696922316427,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696922316430,
+					"stop": 1696922316935,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696922316936,
+					"stop": 1696922316946,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы \"СтраницаКПУ\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922316947,
+			"stop": 1696922318095,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаКПУ"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_1\" я выбираю точное значение 'Клапан КПУ'",
+					"start": 1696922316952,
+					"stop": 1696922316989,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан КПУ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_2\" я выбираю точное значение '1Н'",
+					"start": 1696922316990,
+					"stop": 1696922317020,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "1Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_3\" я выбираю точное значение 'Д'",
+					"start": 1696922317021,
+					"stop": 1696922317050,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "Д"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_4\" я выбираю точное значение 'Н'",
+					"start": 1696922317051,
+					"stop": 1696922317082,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКПУ_5' я ввожу текст '100'",
+					"start": 1696922317083,
+					"stop": 1696922317108,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_5"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКПУ_6' я ввожу текст '100'",
+					"start": 1696922317109,
+					"stop": 1696922317131,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_6"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_7\" я выбираю точное значение '2*Ф'",
+					"start": 1696922317132,
+					"stop": 1696922317166,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_7"
+						},
+						{
+							"name": "Парам2",
+							"value": "2*Ф"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_8\" я выбираю точное значение 'MV'",
+					"start": 1696922317166,
+					"stop": 1696922317196,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_8"
+						},
+						{
+							"name": "Парам2",
+							"value": "MV"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_9\" я выбираю точное значение '220'",
+					"start": 1696922317197,
+					"stop": 1696922317226,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_9"
+						},
+						{
+							"name": "Парам2",
+							"value": "220"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_11\" я выбираю точное значение 'СН'",
+					"start": 1696922317227,
+					"stop": 1696922317256,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_11"
+						},
+						{
+							"name": "Парам2",
+							"value": "СН"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_12\" я выбираю точное значение '0'",
+					"start": 1696922317257,
+					"stop": 1696922317284,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_12"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_13\" я выбираю точное значение '0'",
+					"start": 1696922317286,
+					"stop": 1696922317312,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_13"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_14\" я выбираю точное значение '0'",
+					"start": 1696922317314,
+					"stop": 1696922317343,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_14"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_15\" я выбираю точное значение '0'",
+					"start": 1696922317344,
+					"stop": 1696922317373,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_15"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_17\" я выбираю точное значение '0'",
+					"start": 1696922317374,
+					"stop": 1696922317403,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_17"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_18\" я выбираю точное значение '0'",
+					"start": 1696922317404,
+					"stop": 1696922317433,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_18"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696922317434,
+					"stop": 1696922317509,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696922317509,
+					"stop": 1696922317593,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696922317596,
+					"stop": 1696922318084,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696922318085,
+					"stop": 1696922318095,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы \"СтраницаКПУ\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922318096,
+			"stop": 1696922319141,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаКПУ"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_1\" я выбираю точное значение 'Клапан КПУ'",
+					"start": 1696922318100,
+					"stop": 1696922318139,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан КПУ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_2\" я выбираю точное значение '1Н'",
+					"start": 1696922318140,
+					"stop": 1696922318171,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "1Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_3\" я выбираю точное значение 'О'",
+					"start": 1696922318172,
+					"stop": 1696922318202,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "О"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_4\" я выбираю точное значение 'Н'",
+					"start": 1696922318203,
+					"stop": 1696922318233,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКПУ_5' я ввожу текст '100'",
+					"start": 1696922318369,
+					"stop": 1696922318385,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_5"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКПУ_6' я ввожу текст '100'",
+					"start": 1696922318387,
+					"stop": 1696922318404,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_6"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_7\" я выбираю точное значение '2*Ф'",
+					"start": 1696922318405,
+					"stop": 1696922318437,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_7"
+						},
+						{
+							"name": "Парам2",
+							"value": "2*Ф"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_8\" я выбираю точное значение 'MV'",
+					"start": 1696922318438,
+					"stop": 1696922318468,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_8"
+						},
+						{
+							"name": "Парам2",
+							"value": "MV"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_9\" я выбираю точное значение '220'",
+					"start": 1696922318470,
+					"stop": 1696922318497,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_9"
+						},
+						{
+							"name": "Парам2",
+							"value": "220"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_11\" я выбираю точное значение 'СН'",
+					"start": 1696922318498,
+					"stop": 1696922318531,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_11"
+						},
+						{
+							"name": "Парам2",
+							"value": "СН"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_12\" я выбираю точное значение '0'",
+					"start": 1696922318532,
+					"stop": 1696922318570,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_12"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_13\" я выбираю точное значение '0'",
+					"start": 1696922318571,
+					"stop": 1696922318604,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_13"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_14\" я выбираю точное значение '0'",
+					"start": 1696922318605,
+					"stop": 1696922318634,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_14"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_15\" я выбираю точное значение '0'",
+					"start": 1696922318635,
+					"stop": 1696922318664,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_15"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_17\" я выбираю точное значение '0'",
+					"start": 1696922318665,
+					"stop": 1696922318696,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_17"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_18\" я выбираю точное значение '0'",
+					"start": 1696922318697,
+					"stop": 1696922318725,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_18"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696922318726,
+					"stop": 1696922318803,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696922318804,
+					"stop": 1696922318894,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696922318895,
+					"stop": 1696922319130,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696922319131,
+					"stop": 1696922319141,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы \"СтраницаКПУ\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922319142,
+			"stop": 1696922320059,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаКПУ"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_1\" я выбираю точное значение 'Клапан КПУ'",
+					"start": 1696922319146,
+					"stop": 1696922319185,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан КПУ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_2\" я выбираю точное значение '1Н'",
+					"start": 1696922319186,
+					"stop": 1696922319218,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "1Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_3\" я выбираю точное значение 'О'",
+					"start": 1696922319219,
+					"stop": 1696922319247,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "О"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_4\" я выбираю точное значение 'Н'",
+					"start": 1696922319247,
+					"stop": 1696922319278,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКПУ_5' я ввожу текст '100'",
+					"start": 1696922319279,
+					"stop": 1696922319301,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_5"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКПУ_6' я ввожу текст '100'",
+					"start": 1696922319303,
+					"stop": 1696922319321,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_6"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_7\" я выбираю точное значение '2*Ф'",
+					"start": 1696922319322,
+					"stop": 1696922319355,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_7"
+						},
+						{
+							"name": "Парам2",
+							"value": "2*Ф"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_8\" я выбираю точное значение 'MV'",
+					"start": 1696922319356,
+					"stop": 1696922319389,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_8"
+						},
+						{
+							"name": "Парам2",
+							"value": "MV"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_9\" я выбираю точное значение '220'",
+					"start": 1696922319389,
+					"stop": 1696922319419,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_9"
+						},
+						{
+							"name": "Парам2",
+							"value": "220"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_11\" я выбираю точное значение 'СН'",
+					"start": 1696922319420,
+					"stop": 1696922319449,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_11"
+						},
+						{
+							"name": "Парам2",
+							"value": "СН"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_12\" я выбираю точное значение '0'",
+					"start": 1696922319450,
+					"stop": 1696922319481,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_12"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_13\" я выбираю точное значение '0'",
+					"start": 1696922319481,
+					"stop": 1696922319516,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_13"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_14\" я выбираю точное значение '0'",
+					"start": 1696922319517,
+					"stop": 1696922319546,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_14"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_15\" я выбираю точное значение '0'",
+					"start": 1696922319547,
+					"stop": 1696922319577,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_15"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_17\" я выбираю точное значение '0'",
+					"start": 1696922319578,
+					"stop": 1696922319611,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_17"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКПУ_18\" я выбираю точное значение 'МРП'",
+					"start": 1696922319612,
+					"stop": 1696922319641,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКПУ_18"
+						},
+						{
+							"name": "Парам2",
+							"value": "МРП"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696922319643,
+					"stop": 1696922319717,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696922319718,
+					"stop": 1696922319801,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696922319802,
+					"stop": 1696922320048,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696922320049,
+					"stop": 1696922320059,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы \"СтраницаКПУ\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922320060,
+			"stop": 1696922320061,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаКПУ"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я очищаю окно сообщений пользователю",
+			"start": 1696922320062,
+			"stop": 1696922320080,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Я тестирую страницу КПУ"
+		},
+		{
+			"name": "feature",
+			"value": "Я тестирую страницу КПУ"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features_for_table"
+		},
+		{
+			"name": "host",
+			"value": "HS-DVL02"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

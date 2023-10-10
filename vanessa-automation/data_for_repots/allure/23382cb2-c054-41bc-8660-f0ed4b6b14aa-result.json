@@ -1,0 +1,1988 @@
+{
+	"uuid": "23382cb2-c054-41bc-8660-f0ed4b6b14aa",
+	"historyId": "Тест страницы РЕГЛАН.Я тестирую страницу РЕГЛАН",
+	"name": "Я тестирую страницу РЕГЛАН",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1696922359452,
+	"stop": 1696922365014,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я перехожу к закладке с именем \"СтраницаРЕГЛАН\"",
+			"start": 1696922359473,
+			"stop": 1696922359486,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаРЕГЛАН"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И для каждой строки таблицы  \"СтраницаРЕГЛАН\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922359487,
+			"stop": 1696922360596,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаРЕГЛАН"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_1\" я выбираю точное значение 'Клапан РЕГЛАН'//'Клапан РЕГЛАН'",
+					"start": 1696922359490,
+					"stop": 1696922359529,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан РЕГЛАН"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрРеглан_2' я ввожу текст '110'//'100'",
+					"start": 1696922359530,
+					"stop": 1696922359565,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "110"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрРеглан_3' я ввожу текст '100'//'200 '",
+					"start": 1696922359566,
+					"stop": 1696922359595,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_4\" я выбираю точное значение 'Н'//'Н'",
+					"start": 1696922359596,
+					"stop": 1696922359639,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_5\" я выбираю точное значение 'РУЧКА'//'РУЧКА'",
+					"start": 1696922359640,
+					"stop": 1696922359685,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_5"
+						},
+						{
+							"name": "Парам2",
+							"value": "РУЧКА"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_6\" я выбираю точное значение ''//'F'",
+					"start": 1696922359688,
+					"stop": 1696922359729,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_6"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_7\" я выбираю точное значение ''//'24'",
+					"start": 1696922359731,
+					"stop": 1696922359773,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_7"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_8\" я выбираю точное значение ''//'SR'",
+					"start": 1696922359774,
+					"stop": 1696922359816,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_8"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_9\" я выбираю точное значение ''//'V'",
+					"start": 1696922359816,
+					"stop": 1696922359858,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_9"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_10\" я выбираю точное значение 'УЗ'//'УХЛ2'",
+					"start": 1696922359859,
+					"stop": 1696922359903,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_10"
+						},
+						{
+							"name": "Парам2",
+							"value": "УЗ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_11\" я выбираю точное значение '0'//'0'",
+					"start": 1696922359903,
+					"stop": 1696922359945,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_11"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696922359946,
+					"stop": 1696922360022,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696922360024,
+					"stop": 1696922360107,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696922360108,
+					"stop": 1696922360585,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696922360587,
+					"stop": 1696922360596,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы  \"СтраницаРЕГЛАН\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922360596,
+			"stop": 1696922361879,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаРЕГЛАН"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_1\" я выбираю точное значение 'Клапан РЕГЛАН'//'Клапан РЕГЛАН'",
+					"start": 1696922360600,
+					"stop": 1696922360649,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан РЕГЛАН"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрРеглан_2' я ввожу текст '110'//'100'",
+					"start": 1696922360783,
+					"stop": 1696922360810,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "110"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрРеглан_3' я ввожу текст '100'//'200 '",
+					"start": 1696922360812,
+					"stop": 1696922360843,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_4\" я выбираю точное значение 'Н'//'Н'",
+					"start": 1696922360843,
+					"stop": 1696922360887,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_5\" я выбираю точное значение ''//'РУЧКА'",
+					"start": 1696922360887,
+					"stop": 1696922360929,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_5"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_6\" я выбираю точное значение 'M'//'F'",
+					"start": 1696922360930,
+					"stop": 1696922360974,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_6"
+						},
+						{
+							"name": "Парам2",
+							"value": "M"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_7\" я выбираю точное значение '230'//'24'",
+					"start": 1696922360974,
+					"stop": 1696922361016,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_7"
+						},
+						{
+							"name": "Парам2",
+							"value": "230"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_8\" я выбираю точное значение ''//'SR'",
+					"start": 1696922361017,
+					"stop": 1696922361061,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_8"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_9\" я выбираю точное значение 'V'//'V'",
+					"start": 1696922361061,
+					"stop": 1696922361102,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_9"
+						},
+						{
+							"name": "Парам2",
+							"value": "V"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_10\" я выбираю точное значение 'УЗ'//'УХЛ2'",
+					"start": 1696922361103,
+					"stop": 1696922361146,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_10"
+						},
+						{
+							"name": "Парам2",
+							"value": "УЗ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_11\" я выбираю точное значение '0'//'0'",
+					"start": 1696922361147,
+					"stop": 1696922361190,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_11"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696922361191,
+					"stop": 1696922361263,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696922361264,
+					"stop": 1696922361343,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696922361343,
+					"stop": 1696922361868,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696922361872,
+					"stop": 1696922361879,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы  \"СтраницаРЕГЛАН\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922361880,
+			"stop": 1696922363052,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаРЕГЛАН"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_1\" я выбираю точное значение 'Клапан РЕГЛАН'//'Клапан РЕГЛАН'",
+					"start": 1696922361883,
+					"stop": 1696922361937,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан РЕГЛАН"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрРеглан_2' я ввожу текст '120'//'100'",
+					"start": 1696922361938,
+					"stop": 1696922361975,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "120"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрРеглан_3' я ввожу текст '100'//'200 '",
+					"start": 1696922361978,
+					"stop": 1696922362010,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_4\" я выбираю точное значение 'Н'//'Н'",
+					"start": 1696922362011,
+					"stop": 1696922362058,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_5\" я выбираю точное значение ''//'РУЧКА'",
+					"start": 1696922362058,
+					"stop": 1696922362102,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_5"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_6\" я выбираю точное значение 'M'//'F'",
+					"start": 1696922362103,
+					"stop": 1696922362151,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_6"
+						},
+						{
+							"name": "Парам2",
+							"value": "M"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_7\" я выбираю точное значение '230'//'24'",
+					"start": 1696922362152,
+					"stop": 1696922362197,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_7"
+						},
+						{
+							"name": "Парам2",
+							"value": "230"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_8\" я выбираю точное значение ''//'SR'",
+					"start": 1696922362198,
+					"stop": 1696922362242,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_8"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_9\" я выбираю точное значение 'V'//'V'",
+					"start": 1696922362242,
+					"stop": 1696922362285,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_9"
+						},
+						{
+							"name": "Парам2",
+							"value": "V"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_10\" я выбираю точное значение 'УЗ'//'УХЛ2'",
+					"start": 1696922362285,
+					"stop": 1696922362328,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_10"
+						},
+						{
+							"name": "Парам2",
+							"value": "УЗ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_11\" я выбираю точное значение '0'//'0'",
+					"start": 1696922362328,
+					"stop": 1696922362369,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_11"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696922362370,
+					"stop": 1696922362442,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696922362442,
+					"stop": 1696922362528,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696922362529,
+					"stop": 1696922363039,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696922363040,
+					"stop": 1696922363052,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы  \"СтраницаРЕГЛАН\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922363052,
+			"stop": 1696922363947,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаРЕГЛАН"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_1\" я выбираю точное значение 'Клапан РЕГЛАН'//'Клапан РЕГЛАН'",
+					"start": 1696922363055,
+					"stop": 1696922363115,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан РЕГЛАН"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрРеглан_2' я ввожу текст '2410'//'100'",
+					"start": 1696922363116,
+					"stop": 1696922363149,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "2410"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрРеглан_3' я ввожу текст '1000'//'200 '",
+					"start": 1696922363152,
+					"stop": 1696922363182,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "1000"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_4\" я выбираю точное значение 'Н'//'Н'",
+					"start": 1696922363182,
+					"stop": 1696922363228,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_5\" я выбираю точное значение ''//'РУЧКА'",
+					"start": 1696922363229,
+					"stop": 1696922363273,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_5"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_6\" я выбираю точное значение 'F'//'F'",
+					"start": 1696922363274,
+					"stop": 1696922363318,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_6"
+						},
+						{
+							"name": "Парам2",
+							"value": "F"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_7\" я выбираю точное значение '230'//'24'",
+					"start": 1696922363319,
+					"stop": 1696922363361,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_7"
+						},
+						{
+							"name": "Парам2",
+							"value": "230"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_8\" я выбираю точное значение 'S'//'SR'",
+					"start": 1696922363362,
+					"stop": 1696922363403,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_8"
+						},
+						{
+							"name": "Парам2",
+							"value": "S"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_9\" я выбираю точное значение 'V'//'V'",
+					"start": 1696922363404,
+					"stop": 1696922363445,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_9"
+						},
+						{
+							"name": "Парам2",
+							"value": "V"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_10\" я выбираю точное значение 'УЗ'//'УХЛ2'",
+					"start": 1696922363446,
+					"stop": 1696922363489,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_10"
+						},
+						{
+							"name": "Парам2",
+							"value": "УЗ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_11\" я выбираю точное значение '0'//'0'",
+					"start": 1696922363490,
+					"stop": 1696922363530,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_11"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696922363531,
+					"stop": 1696922363607,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696922363608,
+					"stop": 1696922363690,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696922363691,
+					"stop": 1696922363936,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696922363937,
+					"stop": 1696922363947,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы  \"СтраницаРЕГЛАН\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922363947,
+			"stop": 1696922364989,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаРЕГЛАН"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_1\" я выбираю точное значение 'Клапан РЕГЛАН'//'Клапан РЕГЛАН'",
+					"start": 1696922363951,
+					"stop": 1696922363998,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан РЕГЛАН"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрРеглан_2' я ввожу текст '2410'//'100'",
+					"start": 1696922363998,
+					"stop": 1696922364033,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "2410"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрРеглан_3' я ввожу текст '1000'//'200 '",
+					"start": 1696922364035,
+					"stop": 1696922364063,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "1000"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_4\" я выбираю точное значение 'Н'//'Н'",
+					"start": 1696922364202,
+					"stop": 1696922364241,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_5\" я выбираю точное значение ''//'РУЧКА'",
+					"start": 1696922364243,
+					"stop": 1696922364286,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_5"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_6\" я выбираю точное значение 'F'//'F'",
+					"start": 1696922364287,
+					"stop": 1696922364328,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_6"
+						},
+						{
+							"name": "Парам2",
+							"value": "F"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_7\" я выбираю точное значение '230'//'24'",
+					"start": 1696922364329,
+					"stop": 1696922364388,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_7"
+						},
+						{
+							"name": "Парам2",
+							"value": "230"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_8\" я выбираю точное значение 'S2'//'SR'",
+					"start": 1696922364389,
+					"stop": 1696922364430,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_8"
+						},
+						{
+							"name": "Парам2",
+							"value": "S2"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_9\" я выбираю точное значение 'V'//'V'",
+					"start": 1696922364431,
+					"stop": 1696922364475,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_9"
+						},
+						{
+							"name": "Парам2",
+							"value": "V"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_10\" я выбираю точное значение 'УЗ'//'УХЛ2'",
+					"start": 1696922364476,
+					"stop": 1696922364516,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_10"
+						},
+						{
+							"name": "Парам2",
+							"value": "УЗ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрРеглан_11\" я выбираю точное значение '0'//'0'",
+					"start": 1696922364517,
+					"stop": 1696922364561,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрРеглан_11"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696922364562,
+					"stop": 1696922364639,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696922364640,
+					"stop": 1696922364725,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696922364727,
+					"stop": 1696922364978,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696922364979,
+					"stop": 1696922364989,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы  \"СтраницаРЕГЛАН\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922364990,
+			"stop": 1696922364992,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаРЕГЛАН"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я очищаю окно сообщений пользователю",
+			"start": 1696922364992,
+			"stop": 1696922365013,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Я тестирую страницу РЕГЛАН"
+		},
+		{
+			"name": "feature",
+			"value": "Я тестирую страницу РЕГЛАН"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features_for_table"
+		},
+		{
+			"name": "host",
+			"value": "HS-DVL02"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

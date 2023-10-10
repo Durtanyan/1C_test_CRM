@@ -1,0 +1,1628 @@
+{
+	"uuid": "8836742a-4cc8-43c1-98e4-a9c0b833b988",
+	"historyId": "Тест страницы УКОЛ.Я тестирую страницу УКОЛ",
+	"name": "Я тестирую страницу УКОЛ",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1696922376029,
+	"stop": 1696922381352,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я перехожу к закладке с именем \"СтраницаУКОЛ\"",
+			"start": 1696922376051,
+			"stop": 1696922376064,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаУКОЛ"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И для каждой строки таблицы  \"СтраницаУКОЛ\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922376064,
+			"stop": 1696922377049,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаУКОЛ"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_1\" я выбираю точное значение 'Клапан УКОЛ'//'Клапан УКОЛ'",
+					"start": 1696922376067,
+					"stop": 1696922376100,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан УКОЛ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_2\" я выбираю точное значение '1'//'1'",
+					"start": 1696922376101,
+					"stop": 1696922376139,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "1"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_3\" я выбираю точное значение 'Н'//'Н'",
+					"start": 1696922376139,
+					"stop": 1696922376175,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрУкол_4' я ввожу текст '355'//'100 '",
+					"start": 1696922376176,
+					"stop": 1696922376205,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "355"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрУкол_5' я ввожу текст ''//'200 '",
+					"start": 1696922376206,
+					"stop": 1696922376218,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_5"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_6\" я выбираю точное значение '0'//'1'",
+					"start": 1696922376219,
+					"stop": 1696922376253,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_6"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрУкол_7' я ввожу текст ''//'33  '",
+					"start": 1696922376254,
+					"stop": 1696922376276,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_7"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_8\" я выбираю точное значение ''//'V1'",
+					"start": 1696922376277,
+					"stop": 1696922376313,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_8"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696922376314,
+					"stop": 1696922376387,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696922376388,
+					"stop": 1696922376468,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696922376469,
+					"stop": 1696922377034,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696922377035,
+					"stop": 1696922377049,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы  \"СтраницаУКОЛ\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922377050,
+			"stop": 1696922378071,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаУКОЛ"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_1\" я выбираю точное значение 'Клапан УКОЛ'//'Клапан УКОЛ'",
+					"start": 1696922377053,
+					"stop": 1696922377105,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан УКОЛ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_2\" я выбираю точное значение '1'//'1'",
+					"start": 1696922377106,
+					"stop": 1696922377146,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "1"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_3\" я выбираю точное значение 'Н'//'Н'",
+					"start": 1696922377147,
+					"stop": 1696922377183,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрУкол_4' я ввожу текст '400'//'100 '",
+					"start": 1696922377185,
+					"stop": 1696922377212,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "400"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрУкол_5' я ввожу текст ''//'200 '",
+					"start": 1696922377213,
+					"stop": 1696922377224,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_5"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_6\" я выбираю точное значение '0'//'1'",
+					"start": 1696922377225,
+					"stop": 1696922377260,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_6"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрУкол_7' я ввожу текст ''//'33  '",
+					"start": 1696922377261,
+					"stop": 1696922377280,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_7"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_8\" я выбираю точное значение ''//'V1'",
+					"start": 1696922377281,
+					"stop": 1696922377315,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_8"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696922377316,
+					"stop": 1696922377389,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696922377391,
+					"stop": 1696922377478,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696922377479,
+					"stop": 1696922378059,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696922378060,
+					"stop": 1696922378071,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы  \"СтраницаУКОЛ\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922378072,
+			"stop": 1696922379215,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаУКОЛ"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_1\" я выбираю точное значение 'Клапан УКОЛ'//'Клапан УКОЛ'",
+					"start": 1696922378074,
+					"stop": 1696922378123,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан УКОЛ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_2\" я выбираю точное значение '1'//'1'",
+					"start": 1696922378124,
+					"stop": 1696922378157,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "1"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_3\" я выбираю точное значение 'Н'//'Н'",
+					"start": 1696922378158,
+					"stop": 1696922378192,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрУкол_4' я ввожу текст '450'//'100 '",
+					"start": 1696922378193,
+					"stop": 1696922378222,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "450"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрУкол_5' я ввожу текст ''//'200 '",
+					"start": 1696922378223,
+					"stop": 1696922378234,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_5"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_6\" я выбираю точное значение '0'//'1'",
+					"start": 1696922378235,
+					"stop": 1696922378270,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_6"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрУкол_7' я ввожу текст ''//'33  '",
+					"start": 1696922378271,
+					"stop": 1696922378290,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_7"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_8\" я выбираю точное значение ''//'V1'",
+					"start": 1696922378429,
+					"stop": 1696922378459,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_8"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696922378461,
+					"stop": 1696922378538,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696922378539,
+					"stop": 1696922378621,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696922378622,
+					"stop": 1696922379203,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696922379204,
+					"stop": 1696922379215,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы  \"СтраницаУКОЛ\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922379215,
+			"stop": 1696922380223,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаУКОЛ"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_1\" я выбираю точное значение 'Клапан УКОЛ'//'Клапан УКОЛ'",
+					"start": 1696922379217,
+					"stop": 1696922379263,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан УКОЛ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_2\" я выбираю точное значение '1'//'1'",
+					"start": 1696922379263,
+					"stop": 1696922379296,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "1"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_3\" я выбираю точное значение 'Н'//'Н'",
+					"start": 1696922379297,
+					"stop": 1696922379332,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрУкол_4' я ввожу текст '500'//'100 '",
+					"start": 1696922379333,
+					"stop": 1696922379363,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "500"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрУкол_5' я ввожу текст ''//'200 '",
+					"start": 1696922379363,
+					"stop": 1696922379374,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_5"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_6\" я выбираю точное значение '0'//'1'",
+					"start": 1696922379374,
+					"stop": 1696922379408,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_6"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрУкол_7' я ввожу текст ''//'33  '",
+					"start": 1696922379409,
+					"stop": 1696922379427,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_7"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_8\" я выбираю точное значение ''//'V1'",
+					"start": 1696922379428,
+					"stop": 1696922379464,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_8"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696922379467,
+					"stop": 1696922379543,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696922379543,
+					"stop": 1696922379624,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696922379624,
+					"stop": 1696922380211,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696922380213,
+					"stop": 1696922380223,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы  \"СтраницаУКОЛ\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922380224,
+			"stop": 1696922381329,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаУКОЛ"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_1\" я выбираю точное значение 'Клапан УКОЛ'//'Клапан УКОЛ'",
+					"start": 1696922380227,
+					"stop": 1696922380278,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан УКОЛ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_2\" я выбираю точное значение '1'//'1'",
+					"start": 1696922380278,
+					"stop": 1696922380318,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "1"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_3\" я выбираю точное значение 'Н'//'Н'",
+					"start": 1696922380319,
+					"stop": 1696922380357,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрУкол_4' я ввожу текст '560'//'100 '",
+					"start": 1696922380358,
+					"stop": 1696922380386,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "560"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрУкол_5' я ввожу текст ''//'200 '",
+					"start": 1696922380387,
+					"stop": 1696922380401,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_5"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_6\" я выбираю точное значение '0'//'1'",
+					"start": 1696922380402,
+					"stop": 1696922380439,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_6"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрУкол_7' я ввожу текст ''//'33  '",
+					"start": 1696922380440,
+					"stop": 1696922380462,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_7"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрУкол_8\" я выбираю точное значение ''//'V1'",
+					"start": 1696922380463,
+					"stop": 1696922380500,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрУкол_8"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696922380503,
+					"stop": 1696922380587,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696922380588,
+					"stop": 1696922380688,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696922380689,
+					"stop": 1696922381315,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696922381316,
+					"stop": 1696922381329,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы  \"СтраницаУКОЛ\" я выполняю используя колонку \"Имя\"",
+			"start": 1696922381329,
+			"stop": 1696922381330,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаУКОЛ"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я очищаю окно сообщений пользователю",
+			"start": 1696922381330,
+			"stop": 1696922381351,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Я тестирую страницу УКОЛ"
+		},
+		{
+			"name": "feature",
+			"value": "Я тестирую страницу УКОЛ"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features_for_table"
+		},
+		{
+			"name": "host",
+			"value": "HS-DVL02"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

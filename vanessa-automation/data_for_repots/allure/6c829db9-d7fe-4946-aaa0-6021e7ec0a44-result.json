@@ -1,0 +1,2108 @@
+{
+	"uuid": "6c829db9-d7fe-4946-aaa0-6021e7ec0a44",
+	"historyId": "Тест страницы КЕДР.Я тестирую страницу КЕДР",
+	"name": "Я тестирую страницу КЕДР",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1696924015610,
+	"stop": 1696924021480,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я перехожу к закладке с именем \"СтраницаКЕДР\"",
+			"start": 1696924015611,
+			"stop": 1696924015624,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаКЕДР"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И для каждой строки таблицы \"СтраницаКЕДР\" я выполняю используя колонку \"Имя\"",
+			"start": 1696924015624,
+			"stop": 1696924017046,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаКЕДР"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_1\" я выбираю точное значение 'Клапан КЕДР'//'Клапан КЕДР'",
+					"start": 1696924015627,
+					"stop": 1696924015669,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан КЕДР"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКЕДР_2' я ввожу текст '100'//'100 '",
+					"start": 1696924015669,
+					"stop": 1696924015709,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКЕДР_3' я ввожу текст '100'//'100 '",
+					"start": 1696924015709,
+					"stop": 1696924015740,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_4\" я выбираю точное значение 'РУЧКА'//'РУЧКА'",
+					"start": 1696924015740,
+					"stop": 1696924015788,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "РУЧКА"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_5\" я выбираю точное значение ''//'M'",
+					"start": 1696924015788,
+					"stop": 1696924015838,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_5"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_6\" я выбираю точное значение ''//'230'",
+					"start": 1696924015838,
+					"stop": 1696924015882,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_6"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_7\" я выбираю точное значение ''//'SR'",
+					"start": 1696924015882,
+					"stop": 1696924015925,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_7"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_8\" я выбираю точное значение ''//'V'",
+					"start": 1696924016208,
+					"stop": 1696924016242,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_8"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_9\" я выбираю точное значение ''//'К'",
+					"start": 1696924016242,
+					"stop": 1696924016286,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_9"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_10\" я выбираю точное значение 'Н'//'В'",
+					"start": 1696924016286,
+					"stop": 1696924016328,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_10"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_11\" я выбираю точное значение 'УЗ'//'УЗ'",
+					"start": 1696924016328,
+					"stop": 1696924016370,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_11"
+						},
+						{
+							"name": "Парам2",
+							"value": "УЗ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_12\" я выбираю точное значение '0'//'0'",
+					"start": 1696924016370,
+					"stop": 1696924016412,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_12"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696924016412,
+					"stop": 1696924016487,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696924016487,
+					"stop": 1696924016570,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696924016570,
+					"stop": 1696924017034,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696924017034,
+					"stop": 1696924017046,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы \"СтраницаКЕДР\" я выполняю используя колонку \"Имя\"",
+			"start": 1696924017046,
+			"stop": 1696924018231,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаКЕДР"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_1\" я выбираю точное значение 'Клапан КЕДР-С'//'Клапан КЕДР'",
+					"start": 1696924017049,
+					"stop": 1696924017103,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан КЕДР-С"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКЕДР_2' я ввожу текст '100'//'100 '",
+					"start": 1696924017103,
+					"stop": 1696924017139,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКЕДР_3' я ввожу текст '100'//'100 '",
+					"start": 1696924017139,
+					"stop": 1696924017167,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_4\" я выбираю точное значение 'РУЧКА'//'РУЧКА'",
+					"start": 1696924017167,
+					"stop": 1696924017212,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "РУЧКА"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_5\" я выбираю точное значение ''//'M'",
+					"start": 1696924017212,
+					"stop": 1696924017253,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_5"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_6\" я выбираю точное значение ''//'230'",
+					"start": 1696924017253,
+					"stop": 1696924017294,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_6"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_7\" я выбираю точное значение ''//'SR'",
+					"start": 1696924017294,
+					"stop": 1696924017334,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_7"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_8\" я выбираю точное значение ''//'V'",
+					"start": 1696924017334,
+					"stop": 1696924017375,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_8"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_9\" я выбираю точное значение ''//'К'",
+					"start": 1696924017375,
+					"stop": 1696924017422,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_9"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_10\" я выбираю точное значение 'Н'//'В'",
+					"start": 1696924017422,
+					"stop": 1696924017463,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_10"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_11\" я выбираю точное значение 'УЗ'//'УЗ'",
+					"start": 1696924017463,
+					"stop": 1696924017503,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_11"
+						},
+						{
+							"name": "Парам2",
+							"value": "УЗ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_12\" я выбираю точное значение '0'//'0'",
+					"start": 1696924017503,
+					"stop": 1696924017544,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_12"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696924017544,
+					"stop": 1696924017620,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696924017620,
+					"stop": 1696924017708,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696924017708,
+					"stop": 1696924018221,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696924018221,
+					"stop": 1696924018231,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы \"СтраницаКЕДР\" я выполняю используя колонку \"Имя\"",
+			"start": 1696924018231,
+			"stop": 1696924019413,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаКЕДР"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_1\" я выбираю точное значение 'Клапан КЕДР-С'//'Клапан КЕДР'",
+					"start": 1696924018234,
+					"stop": 1696924018289,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан КЕДР-С"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКЕДР_2' я ввожу текст '90'//'100 '",
+					"start": 1696924018289,
+					"stop": 1696924018323,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "90"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКЕДР_3' я ввожу текст '100'//'100 '",
+					"start": 1696924018324,
+					"stop": 1696924018355,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_4\" я выбираю точное значение 'РУЧКА'//'РУЧКА'",
+					"start": 1696924018355,
+					"stop": 1696924018399,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "РУЧКА"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_5\" я выбираю точное значение ''//'M'",
+					"start": 1696924018399,
+					"stop": 1696924018440,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_5"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_6\" я выбираю точное значение ''//'230'",
+					"start": 1696924018440,
+					"stop": 1696924018480,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_6"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_7\" я выбираю точное значение ''//'SR'",
+					"start": 1696924018481,
+					"stop": 1696924018524,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_7"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_8\" я выбираю точное значение ''//'V'",
+					"start": 1696924018524,
+					"stop": 1696924018566,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_8"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_9\" я выбираю точное значение ''//'К'",
+					"start": 1696924018567,
+					"stop": 1696924018611,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_9"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_10\" я выбираю точное значение 'Н'//'В'",
+					"start": 1696924018611,
+					"stop": 1696924018652,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_10"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_11\" я выбираю точное значение 'УЗ'//'УЗ'",
+					"start": 1696924018652,
+					"stop": 1696924018692,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_11"
+						},
+						{
+							"name": "Парам2",
+							"value": "УЗ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_12\" я выбираю точное значение '0'//'0'",
+					"start": 1696924018692,
+					"stop": 1696924018733,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_12"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696924018733,
+					"stop": 1696924018808,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696924018808,
+					"stop": 1696924018890,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696924018890,
+					"stop": 1696924019403,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696924019403,
+					"stop": 1696924019413,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы \"СтраницаКЕДР\" я выполняю используя колонку \"Имя\"",
+			"start": 1696924019413,
+			"stop": 1696924020511,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаКЕДР"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_1\" я выбираю точное значение 'Клапан КЕДР'//'Клапан КЕДР'",
+					"start": 1696924019416,
+					"stop": 1696924019466,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан КЕДР"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКЕДР_2' я ввожу текст '100'//'100 '",
+					"start": 1696924019466,
+					"stop": 1696924019501,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКЕДР_3' я ввожу текст '100'//'100 '",
+					"start": 1696924019501,
+					"stop": 1696924019530,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_4\" я выбираю точное значение 'ЭПВ'//'РУЧКА'",
+					"start": 1696924019530,
+					"stop": 1696924019574,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "ЭПВ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_5\" я выбираю точное значение 'M'//'M'",
+					"start": 1696924019574,
+					"stop": 1696924019614,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_5"
+						},
+						{
+							"name": "Парам2",
+							"value": "M"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_6\" я выбираю точное значение '230'//'230'",
+					"start": 1696924019614,
+					"stop": 1696924019655,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_6"
+						},
+						{
+							"name": "Парам2",
+							"value": "230"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_7\" я выбираю точное значение ''//'SR'",
+					"start": 1696924019870,
+					"stop": 1696924019904,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_7"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_8\" я выбираю точное значение 'V'//'V'",
+					"start": 1696924019904,
+					"stop": 1696924019945,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_8"
+						},
+						{
+							"name": "Парам2",
+							"value": "V"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_9\" я выбираю точное значение ''//'К'",
+					"start": 1696924019945,
+					"stop": 1696924019986,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_9"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_10\" я выбираю точное значение 'Н'//'В'",
+					"start": 1696924019986,
+					"stop": 1696924020028,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_10"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_11\" я выбираю точное значение 'УЗ'//'УЗ'",
+					"start": 1696924020028,
+					"stop": 1696924020068,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_11"
+						},
+						{
+							"name": "Парам2",
+							"value": "УЗ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_12\" я выбираю точное значение '0'//'0'",
+					"start": 1696924020069,
+					"stop": 1696924020109,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_12"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696924020109,
+					"stop": 1696924020185,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696924020185,
+					"stop": 1696924020265,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696924020266,
+					"stop": 1696924020501,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696924020501,
+					"stop": 1696924020511,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы \"СтраницаКЕДР\" я выполняю используя колонку \"Имя\"",
+			"start": 1696924020511,
+			"stop": 1696924021458,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаКЕДР"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_1\" я выбираю точное значение 'Клапан КЕДР'//'Клапан КЕДР'",
+					"start": 1696924020514,
+					"stop": 1696924020565,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_1"
+						},
+						{
+							"name": "Парам2",
+							"value": "Клапан КЕДР"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКЕДР_2' я ввожу текст '100'//'100 '",
+					"start": 1696924020565,
+					"stop": 1696924020599,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_2"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ПараметрКЕДР_3' я ввожу текст '100'//'100 '",
+					"start": 1696924020599,
+					"stop": 1696924020626,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_3"
+						},
+						{
+							"name": "Парам2",
+							"value": "100"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_4\" я выбираю точное значение 'ЭПВ'//'РУЧКА'",
+					"start": 1696924020627,
+					"stop": 1696924020670,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_4"
+						},
+						{
+							"name": "Парам2",
+							"value": "ЭПВ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_5\" я выбираю точное значение 'M'//'M'",
+					"start": 1696924020670,
+					"stop": 1696924020712,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_5"
+						},
+						{
+							"name": "Парам2",
+							"value": "M"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_6\" я выбираю точное значение '230'//'230'",
+					"start": 1696924020712,
+					"stop": 1696924020755,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_6"
+						},
+						{
+							"name": "Парам2",
+							"value": "230"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_7\" я выбираю точное значение ''//'SR'",
+					"start": 1696924020755,
+					"stop": 1696924020798,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_7"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_8\" я выбираю точное значение 'V'//'V'",
+					"start": 1696924020798,
+					"stop": 1696924020840,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_8"
+						},
+						{
+							"name": "Парам2",
+							"value": "V"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_9\" я выбираю точное значение ''//'К'",
+					"start": 1696924020840,
+					"stop": 1696924020880,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_9"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_10\" я выбираю точное значение 'Н'//'В'",
+					"start": 1696924020881,
+					"stop": 1696924020921,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_10"
+						},
+						{
+							"name": "Парам2",
+							"value": "Н"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_11\" я выбираю точное значение 'УЗ'//'УЗ'",
+					"start": 1696924020922,
+					"stop": 1696924020963,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_11"
+						},
+						{
+							"name": "Парам2",
+							"value": "УЗ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПараметрКЕДР_12\" я выбираю точное значение '0'//'0'",
+					"start": 1696924020963,
+					"stop": 1696924021005,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПараметрКЕДР_12"
+						},
+						{
+							"name": "Парам2",
+							"value": "0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'СформироватьСтроку'",
+					"start": 1696924021005,
+					"stop": 1696924021089,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СформироватьСтроку"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ПолучитьЦену'",
+					"start": 1696924021089,
+					"stop": 1696924021204,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучитьЦену"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТЧ_СписокНомеклатуры\" я активизирую поле с именем \"ТЧ_СписокНомеклатурыНоменклатура\"",
+					"start": 1696924021204,
+					"stop": 1696924021447,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатуры"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатурыНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить' на элементе формы с именем \"ТЧ_СписокНомеклатуры\"",
+					"start": 1696924021447,
+					"stop": 1696924021458,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТЧ_СписокНомеклатурыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТЧ_СписокНомеклатуры"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И для каждой строки таблицы \"СтраницаКЕДР\" я выполняю используя колонку \"Имя\"",
+			"start": 1696924021458,
+			"stop": 1696924021459,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаКЕДР"
+				},
+				{
+					"name": "Парам2",
+					"value": "Имя"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я очищаю окно сообщений пользователю",
+			"start": 1696924021459,
+			"stop": 1696924021479,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Я тестирую страницу КЕДР"
+		},
+		{
+			"name": "feature",
+			"value": "Я тестирую страницу КЕДР"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features_for_table"
+		},
+		{
+			"name": "host",
+			"value": "HS-DVL02"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

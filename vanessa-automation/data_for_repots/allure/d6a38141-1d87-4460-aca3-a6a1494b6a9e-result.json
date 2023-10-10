@@ -1,0 +1,64 @@
+{
+	"uuid": "d6a38141-1d87-4460-aca3-a6a1494b6a9e",
+	"historyId": "Закрытие базы после тестов.Я закрываю базу после окончания тестирования",
+	"name": "Я закрываю базу после окончания тестирования",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1696922381959,
+	"stop": 1696922387340,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я закрываю TestClient \"crm_test\"",
+			"start": 1696922381980,
+			"stop": 1696922387339,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "crm_test"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Я закрываю базу после окончания тестирования"
+		},
+		{
+			"name": "feature",
+			"value": "Я закрываю базу после окончания тестирования"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features_for_table"
+		},
+		{
+			"name": "host",
+			"value": "HS-DVL02"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

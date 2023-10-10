@@ -1,6 +1,54 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite name="Сбор данных для таблиц Геркин" errors="0" skipped="0" tests="1" failures="0" time="0">
-		<testcase name="Собираю данные для формирования таблиц Геркин" classname="Сбор данных для таблиц Геркин" time="0" StartDate="20231005120806" timestamp="2023-10-05T12:08:06"/>
+	<testsuite name="Подключение к базе и переход на начальную позицию" errors="0" skipped="0" tests="1" failures="0" time="46.437">
+		<testcase name="Я подключаюсь к базе и перехожу на начальную позицию теста" classname="Подключение к базе и переход на начальную позицию" time="46.437" StartDate="20231010104534" timestamp="2023-10-10T10:45:34" EndDate="20231010104620"/>
+	</testsuite>
+	<testsuite name="Тест страницы Клапан КЭД" errors="0" skipped="0" tests="1" failures="0" time="7.172">
+		<testcase name="Я тестирую страницу КлапанКЭД" classname="Тест страницы Клапан КЭД" time="7.172" StartDate="20231010104621" timestamp="2023-10-10T10:46:21" EndDate="20231010104628"/>
+	</testsuite>
+	<testsuite name="Тест страницы ПРОК" errors="0" skipped="0" tests="1" failures="0" time="4.878">
+		<testcase name="Я тестирую страницу ПРОК" classname="Тест страницы ПРОК" time="4.878" StartDate="20231010104628" timestamp="2023-10-10T10:46:28" EndDate="20231010104633"/>
+	</testsuite>
+	<testsuite name="Тест страницы ОКСИД" errors="0" skipped="0" tests="1" failures="0" time="5.299">
+		<testcase name="Я тестирую страницу ОКСИД" classname="Тест страницы ОКСИД" time="5.299" StartDate="20231010104633" timestamp="2023-10-10T10:46:33" EndDate="20231010104638"/>
+	</testsuite>
+	<testsuite name="Тест страницы КПУ" errors="0" skipped="0" tests="1" failures="0" time="5.621">
+		<testcase name="Я тестирую страницу КПУ" classname="Тест страницы КПУ" time="5.621" StartDate="20231010104638" timestamp="2023-10-10T10:46:38" EndDate="20231010104644"/>
+	</testsuite>
+	<testsuite name="Тест страницы ГАЗОХОД" errors="0" skipped="0" tests="1" failures="0" time="4.818">
+		<testcase name="Я тестирую страницу ГАЗОХОД" classname="Тест страницы ГАЗОХОД" time="4.818" StartDate="20231010104644" timestamp="2023-10-10T10:46:44" EndDate="20231010104649"/>
+	</testsuite>
+	<testsuite name="Тест страницы ГермикТ" errors="0" skipped="0" tests="1" failures="0" time="5.74">
+		<testcase name="Я тестирую страницу ГермикТ" classname="Тест страницы ГермикТ" time="5.74" StartDate="20231010104649" timestamp="2023-10-10T10:46:49" EndDate="20231010104655"/>
+	</testsuite>
+	<testsuite name="Тест страницы КЕДР" errors="0" skipped="0" tests="1" failures="0" time="5.87">
+		<testcase name="Я тестирую страницу КЕДР" classname="Тест страницы КЕДР" time="5.87" StartDate="20231010104655" timestamp="2023-10-10T10:46:55" EndDate="20231010104701"/>
+	</testsuite>
+	<testsuite name="Тест страницы КИД" errors="0" skipped="0" tests="1" failures="0" time="4.114">
+		<testcase name="Я тестирую страницу КИД" classname="Тест страницы КИД" time="4.114" StartDate="20231010104701" timestamp="2023-10-10T10:47:01" EndDate="20231010104705"/>
+	</testsuite>
+	<testsuite name="Тест страницы КЛАРА-КРОС" errors="0" skipped="0" tests="1" failures="0" time="3.799">
+		<testcase name="Я тестирую страницу КЛАРА-КРОСС" classname="Тест страницы КЛАРА-КРОС" time="3.799" StartDate="20231010104705" timestamp="2023-10-10T10:47:05" EndDate="20231010104709"/>
+	</testsuite>
+	<testsuite name="Тест страницы НЕРПА" errors="0" skipped="0" tests="1" failures="0" time="7.122">
+		<testcase name="Я тестирую страницу НЕРПА" classname="Тест страницы НЕРПА" time="7.122" StartDate="20231010104710" timestamp="2023-10-10T10:47:10" EndDate="20231010104717"/>
+	</testsuite>
+	<testsuite name="Тест страницы НЕРПАКО" errors="0" skipped="0" tests="1" failures="0" time="3.935">
+		<testcase name="Я тестирую страницу НЕРПАКО" classname="Тест страницы НЕРПАКО" time="3.935" StartDate="20231010104717" timestamp="2023-10-10T10:47:17" EndDate="20231010104721"/>
+	</testsuite>
+	<testsuite name="Тест страницы РЕГЛАН" errors="0" skipped="0" tests="1" failures="0" time="5.69">
+		<testcase name="Я тестирую страницу РЕГЛАН" classname="Тест страницы РЕГЛАН" time="5.69" StartDate="20231010104721" timestamp="2023-10-10T10:47:21" EndDate="20231010104727"/>
+	</testsuite>
+	<testsuite name="Тест страницы РЕГУЛЯР" errors="0" skipped="0" tests="1" failures="0" time="5.165">
+		<testcase name="Я Тестирую страницу РЕГУЛЯР" classname="Тест страницы РЕГУЛЯР" time="5.165" StartDate="20231010104727" timestamp="2023-10-10T10:47:27" EndDate="20231010104732"/>
+	</testsuite>
+	<testsuite name="Тест страницы ТЮЛЬПАН" errors="0" skipped="0" tests="1" failures="0" time="4.504">
+		<testcase name="Я тестирую страницу ТЮЛЬПАН" classname="Тест страницы ТЮЛЬПАН" time="4.504" StartDate="20231010104732" timestamp="2023-10-10T10:47:32" EndDate="20231010104737"/>
+	</testsuite>
+	<testsuite name="Тест страницы УКОЛ" errors="0" skipped="0" tests="1" failures="0" time="5.255">
+		<testcase name="Я тестирую страницу УКОЛ" classname="Тест страницы УКОЛ" time="5.255" StartDate="20231010104737" timestamp="2023-10-10T10:47:37" EndDate="20231010104742"/>
+	</testsuite>
+	<testsuite name="Закрытие базы после тестов" errors="0" skipped="0" tests="1" failures="0" time="5.756">
+		<testcase name="Я закрываю базу после окончания тестирования" classname="Закрытие базы после тестов" time="5.756" StartDate="20231010104742" timestamp="2023-10-10T10:47:42" EndDate="20231010104748"/>
 	</testsuite>
 </testsuites>

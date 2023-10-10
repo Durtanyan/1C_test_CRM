@@ -1,0 +1,1 @@
+"C:\Program Files\1cv8\8.3.22.1750\bin\1cv8c" /N"admin" ENTERPRISE /F ".\..\infobase" /TestManager /Execute ".\vanessa-automation.epf" /C"StartFeaturePlayer;QuietInstallVanessaExt;VAParams=.\VAParams.json"
