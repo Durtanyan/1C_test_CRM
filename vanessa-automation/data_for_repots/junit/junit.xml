@@ -1,54 +1,156 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite name="Подключение к базе и переход на начальную позицию" errors="0" skipped="0" tests="1" failures="0" time="46.437">
-		<testcase name="Я подключаюсь к базе и перехожу на начальную позицию теста" classname="Подключение к базе и переход на начальную позицию" time="46.437" StartDate="20231010104534" timestamp="2023-10-10T10:45:34" EndDate="20231010104620"/>
+	<testsuite name="Подключение к базе и переход на начальную позицию" errors="0" skipped="0" tests="1" failures="0" time="51.756">
+		<testcase name="Я подключаюсь к базе и перехожу на начальную позицию теста" classname="features_for_module_verosa.Подключение к базе и переход на начальную позицию" time="51.756" StartDate="20231012112617" timestamp="2023-10-12T11:26:17" EndDate="20231012112708"/>
 	</testsuite>
-	<testsuite name="Тест страницы Клапан КЭД" errors="0" skipped="0" tests="1" failures="0" time="7.172">
-		<testcase name="Я тестирую страницу КлапанКЭД" classname="Тест страницы Клапан КЭД" time="7.172" StartDate="20231010104621" timestamp="2023-10-10T10:46:21" EndDate="20231010104628"/>
+	<testsuite name="Проверка работы поля ввода пути к файлу" errors="0" skipped="0" tests="1" failures="0" time="0.31">
+		<testcase name="Я проверяю работу механизма выбора файла" classname="features_for_module_verosa.Проверка работы поля ввода пути к файлу" time="0.31" StartDate="20231012112709" timestamp="2023-10-12T11:27:09" EndDate="20231012112709"/>
 	</testsuite>
-	<testsuite name="Тест страницы ПРОК" errors="0" skipped="0" tests="1" failures="0" time="4.878">
-		<testcase name="Я тестирую страницу ПРОК" classname="Тест страницы ПРОК" time="4.878" StartDate="20231010104628" timestamp="2023-10-10T10:46:28" EndDate="20231010104633"/>
+	<testsuite name="Проверка загрузки" errors="0" skipped="0" tests="1" failures="1" time="1.863">
+		<testcase name="Проверяю загрузку данных" classname="features_for_module_verosa.Проверка загрузки" time="1.863" StartDate="20231012112709" timestamp="2023-10-12T11:27:09" EndDate="20231012112711">
+			<error>Сработал дебаг!!!
+
+{ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}:
+
+Технические данные:
+        ЗаголовокАктивногоОкна: Загрузка ВЕРОСА для расчета стоимости ЕРП
+        ИмяАктивнойФормы: ВнешняяОбработка.ЗагрузкаВЕРОСАДляРасчетаСтоимостиЕРП.Форма.Форма
+        ИмяФичи: Проверка загрузки
+        ИмяСценария: Проверяю загрузку данных
+        НомерСтрокиДерева: 30
+        НомерСтрокиФичи: 12
+        ПолныйПутьКФиче: features_for_tests\test_package\features_for_module_verosa\03 проверка загрузки данных.feature
+        ИмяФайла: D:/lukin/features_for_disigner_crm/vanessa-automation/features/Libraries/Условие/step_definitions/Условие.epf
+        ИмяПроцедуры: ЯВызываюИсключение
+        ИмяРаннера: HS-DVL02
+        ИмяКлиентаТестирования: crm_test
+        СинонимКлиентаТестирования: 
+        ТипКлиентаТестирования: Тонкий
+        СтрокаСоединения: Srvr="HS-DVL02:12001";Ref="CRM_DEV_1";
+        ДопПараметрыПодключения: /N "vanessa" /P "vanessa12345vanessa"
+        PIDКлиентаТестирования: 20988
+        ВерсияVA: ver 1.2.040.20
+        ВерсияПлатформы: 8.3.22.1750
+        ТипПлатформы: Windows x86-64
+        РежимСовместимостиTestManager: Версия8_3_17
+        ВремяРаботыСценария: 0:00:02 (ч:м:с)
+        ДатаВремяОшибки: 12.10.2023 11:27:11
+</error>
+		</testcase>
 	</testsuite>
-	<testsuite name="Тест страницы ОКСИД" errors="0" skipped="0" tests="1" failures="0" time="5.299">
-		<testcase name="Я тестирую страницу ОКСИД" classname="Тест страницы ОКСИД" time="5.299" StartDate="20231010104633" timestamp="2023-10-10T10:46:33" EndDate="20231010104638"/>
+	<testsuite name="Проверка получения стоимости" errors="0" skipped="0" tests="1" failures="1" time="17.568">
+		<testcase name="проверяю работу механизма получения стоимости" classname="features_for_module_verosa.Проверка получения стоимости" time="17.568" StartDate="20231012112711" timestamp="2023-10-12T11:27:11" EndDate="20231012112729">
+			<error>Ожидали, что табличный документ &lt;ПолеТабличногоДокумента&gt; будет заполнен данными.
+
+Технические данные:
+        ЗаголовокАктивногоОкна: Загрузка ВЕРОСА для расчета стоимости ЕРП
+        ИмяАктивнойФормы: ВнешняяОбработка.ЗагрузкаВЕРОСАДляРасчетаСтоимостиЕРП.Форма.Форма
+        ИмяФичи: Проверка получения стоимости
+        ИмяСценария: проверяю работу механизма получения стоимости
+        НомерСтрокиДерева: 36
+        НомерСтрокиФичи: 9
+        ПолныйПутьКФиче: features_for_tests\test_package\features_for_module_verosa\04 проверка получения стоимости.feature
+        ИмяФайла: D:/lukin/features_for_disigner_crm/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсомДополнительный.epf
+        ИмяПроцедуры: ЯЖдуЧтоТабличныйДокументЗаполнитсяДаннымиВТечениеСекунд
+        ИмяРаннера: HS-DVL02
+        ИмяКлиентаТестирования: crm_test
+        СинонимКлиентаТестирования: 
+        ТипКлиентаТестирования: Тонкий
+        СтрокаСоединения: Srvr="HS-DVL02:12001";Ref="CRM_DEV_1";
+        ДопПараметрыПодключения: /N "vanessa" /P "vanessa12345vanessa"
+        PIDКлиентаТестирования: 20988
+        ВерсияVA: ver 1.2.040.20
+        ВерсияПлатформы: 8.3.22.1750
+        ТипПлатформы: Windows x86-64
+        РежимСовместимостиTestManager: Версия8_3_17
+        ВремяРаботыСценария: 0:00:18 (ч:м:с)
+        ДатаВремяОшибки: 12.10.2023 11:27:29</error>
+		</testcase>
 	</testsuite>
-	<testsuite name="Тест страницы КПУ" errors="0" skipped="0" tests="1" failures="0" time="5.621">
-		<testcase name="Я тестирую страницу КПУ" classname="Тест страницы КПУ" time="5.621" StartDate="20231010104638" timestamp="2023-10-10T10:46:38" EndDate="20231010104644"/>
+	<testsuite name="Проверка значения ячейки Стоимость" errors="0" skipped="0" tests="1" failures="1" time="1.515">
+		<testcase name="Проверяю значение ячейки Стоимость в табличном документе" classname="features_for_module_verosa.Проверка значения ячейки Стоимость" time="1.515" StartDate="20231012112729" timestamp="2023-10-12T11:27:29" EndDate="20231012112731">
+			<error>Данные по суммам не получены!!!
+
+{ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}:
+
+Технические данные:
+        ЗаголовокАктивногоОкна: Загрузка ВЕРОСА для расчета стоимости ЕРП
+        ИмяАктивнойФормы: ВнешняяОбработка.ЗагрузкаВЕРОСАДляРасчетаСтоимостиЕРП.Форма.Форма
+        ИмяФичи: Проверка значения ячейки Стоимость
+        ИмяСценария: Проверяю значение ячейки Стоимость в табличном документе
+        НомерСтрокиДерева: 41
+        НомерСтрокиФичи: 10
+        ПолныйПутьКФиче: features_for_tests\test_package\features_for_module_verosa\05 проверка значения ячейки Стоимость в табличном документе.feature
+        ИмяФайла: D:/lukin/features_for_disigner_crm/vanessa-automation/features/Libraries/Условие/step_definitions/Условие.epf
+        ИмяПроцедуры: ЯВызываюИсключение
+        ИмяРаннера: HS-DVL02
+        ИмяКлиентаТестирования: crm_test
+        СинонимКлиентаТестирования: 
+        ТипКлиентаТестирования: Тонкий
+        СтрокаСоединения: Srvr="HS-DVL02:12001";Ref="CRM_DEV_1";
+        ДопПараметрыПодключения: /N "vanessa" /P "vanessa12345vanessa"
+        PIDКлиентаТестирования: 20988
+        ВерсияVA: ver 1.2.040.20
+        ВерсияПлатформы: 8.3.22.1750
+        ТипПлатформы: Windows x86-64
+        РежимСовместимостиTestManager: Версия8_3_17
+        ВремяРаботыСценария: 0:00:02 (ч:м:с)
+        ДатаВремяОшибки: 12.10.2023 11:27:31
+</error>
+		</testcase>
 	</testsuite>
-	<testsuite name="Тест страницы ГАЗОХОД" errors="0" skipped="0" tests="1" failures="0" time="4.818">
-		<testcase name="Я тестирую страницу ГАЗОХОД" classname="Тест страницы ГАЗОХОД" time="4.818" StartDate="20231010104644" timestamp="2023-10-10T10:46:44" EndDate="20231010104649"/>
+	<testsuite name="Закрытие базы после тестов" errors="0" skipped="0" tests="1" failures="0" time="4.955">
+		<testcase name="Я закрываю базу после окончания тестирования" classname="features_for_module_verosa.Закрытие базы после тестов" time="4.955" StartDate="20231012112731" timestamp="2023-10-12T11:27:31" EndDate="20231012112736"/>
 	</testsuite>
-	<testsuite name="Тест страницы ГермикТ" errors="0" skipped="0" tests="1" failures="0" time="5.74">
-		<testcase name="Я тестирую страницу ГермикТ" classname="Тест страницы ГермикТ" time="5.74" StartDate="20231010104649" timestamp="2023-10-10T10:46:49" EndDate="20231010104655"/>
+	<testsuite name="Подключение к базе и переход на начальную позицию" errors="0" skipped="0" tests="1" failures="0" time="52.481">
+		<testcase name="Я подключаюсь к базе и перехожу на начальную позицию теста" classname="features_for_table.Подключение к базе и переход на начальную позицию" time="52.481" StartDate="20231012112736" timestamp="2023-10-12T11:27:36" EndDate="20231012112828"/>
 	</testsuite>
-	<testsuite name="Тест страницы КЕДР" errors="0" skipped="0" tests="1" failures="0" time="5.87">
-		<testcase name="Я тестирую страницу КЕДР" classname="Тест страницы КЕДР" time="5.87" StartDate="20231010104655" timestamp="2023-10-10T10:46:55" EndDate="20231010104701"/>
+	<testsuite name="Тест страницы Клапан КЭД" errors="0" skipped="0" tests="1" failures="0" time="6.896">
+		<testcase name="Я тестирую страницу КлапанКЭД" classname="features_for_table.Тест страницы Клапан КЭД" time="6.896" StartDate="20231012112829" timestamp="2023-10-12T11:28:29" EndDate="20231012112835"/>
 	</testsuite>
-	<testsuite name="Тест страницы КИД" errors="0" skipped="0" tests="1" failures="0" time="4.114">
-		<testcase name="Я тестирую страницу КИД" classname="Тест страницы КИД" time="4.114" StartDate="20231010104701" timestamp="2023-10-10T10:47:01" EndDate="20231010104705"/>
+	<testsuite name="Тест страницы ПРОК" errors="0" skipped="0" tests="1" failures="0" time="4.353">
+		<testcase name="Я тестирую страницу ПРОК" classname="features_for_table.Тест страницы ПРОК" time="4.353" StartDate="20231012112836" timestamp="2023-10-12T11:28:36" EndDate="20231012112840"/>
 	</testsuite>
-	<testsuite name="Тест страницы КЛАРА-КРОС" errors="0" skipped="0" tests="1" failures="0" time="3.799">
-		<testcase name="Я тестирую страницу КЛАРА-КРОСС" classname="Тест страницы КЛАРА-КРОС" time="3.799" StartDate="20231010104705" timestamp="2023-10-10T10:47:05" EndDate="20231010104709"/>
+	<testsuite name="Тест страницы ОКСИД" errors="0" skipped="0" tests="1" failures="0" time="5.665">
+		<testcase name="Я тестирую страницу ОКСИД" classname="features_for_table.Тест страницы ОКСИД" time="5.665" StartDate="20231012112840" timestamp="2023-10-12T11:28:40" EndDate="20231012112846"/>
 	</testsuite>
-	<testsuite name="Тест страницы НЕРПА" errors="0" skipped="0" tests="1" failures="0" time="7.122">
-		<testcase name="Я тестирую страницу НЕРПА" classname="Тест страницы НЕРПА" time="7.122" StartDate="20231010104710" timestamp="2023-10-10T10:47:10" EndDate="20231010104717"/>
+	<testsuite name="Тест страницы КПУ" errors="0" skipped="0" tests="1" failures="0" time="5.576">
+		<testcase name="Я тестирую страницу КПУ" classname="features_for_table.Тест страницы КПУ" time="5.576" StartDate="20231012112846" timestamp="2023-10-12T11:28:46" EndDate="20231012112852"/>
 	</testsuite>
-	<testsuite name="Тест страницы НЕРПАКО" errors="0" skipped="0" tests="1" failures="0" time="3.935">
-		<testcase name="Я тестирую страницу НЕРПАКО" classname="Тест страницы НЕРПАКО" time="3.935" StartDate="20231010104717" timestamp="2023-10-10T10:47:17" EndDate="20231010104721"/>
+	<testsuite name="Тест страницы ГАЗОХОД" errors="0" skipped="0" tests="1" failures="0" time="4.794">
+		<testcase name="Я тестирую страницу ГАЗОХОД" classname="features_for_table.Тест страницы ГАЗОХОД" time="4.794" StartDate="20231012112852" timestamp="2023-10-12T11:28:52" EndDate="20231012112856"/>
 	</testsuite>
-	<testsuite name="Тест страницы РЕГЛАН" errors="0" skipped="0" tests="1" failures="0" time="5.69">
-		<testcase name="Я тестирую страницу РЕГЛАН" classname="Тест страницы РЕГЛАН" time="5.69" StartDate="20231010104721" timestamp="2023-10-10T10:47:21" EndDate="20231010104727"/>
+	<testsuite name="Тест страницы ГермикТ" errors="0" skipped="0" tests="1" failures="0" time="5.662">
+		<testcase name="Я тестирую страницу ГермикТ" classname="features_for_table.Тест страницы ГермикТ" time="5.662" StartDate="20231012112857" timestamp="2023-10-12T11:28:57" EndDate="20231012112902"/>
 	</testsuite>
-	<testsuite name="Тест страницы РЕГУЛЯР" errors="0" skipped="0" tests="1" failures="0" time="5.165">
-		<testcase name="Я Тестирую страницу РЕГУЛЯР" classname="Тест страницы РЕГУЛЯР" time="5.165" StartDate="20231010104727" timestamp="2023-10-10T10:47:27" EndDate="20231010104732"/>
+	<testsuite name="Тест страницы КЕДР" errors="0" skipped="0" tests="1" failures="0" time="5.541">
+		<testcase name="Я тестирую страницу КЕДР" classname="features_for_table.Тест страницы КЕДР" time="5.541" StartDate="20231012112903" timestamp="2023-10-12T11:29:03" EndDate="20231012112908"/>
 	</testsuite>
-	<testsuite name="Тест страницы ТЮЛЬПАН" errors="0" skipped="0" tests="1" failures="0" time="4.504">
-		<testcase name="Я тестирую страницу ТЮЛЬПАН" classname="Тест страницы ТЮЛЬПАН" time="4.504" StartDate="20231010104732" timestamp="2023-10-10T10:47:32" EndDate="20231010104737"/>
+	<testsuite name="Тест страницы КИД" errors="0" skipped="0" tests="1" failures="0" time="4.312">
+		<testcase name="Я тестирую страницу КИД" classname="features_for_table.Тест страницы КИД" time="4.312" StartDate="20231012112908" timestamp="2023-10-12T11:29:08" EndDate="20231012112913"/>
 	</testsuite>
-	<testsuite name="Тест страницы УКОЛ" errors="0" skipped="0" tests="1" failures="0" time="5.255">
-		<testcase name="Я тестирую страницу УКОЛ" classname="Тест страницы УКОЛ" time="5.255" StartDate="20231010104737" timestamp="2023-10-10T10:47:37" EndDate="20231010104742"/>
+	<testsuite name="Тест страницы КЛАРА-КРОС" errors="0" skipped="0" tests="1" failures="0" time="3.817">
+		<testcase name="Я тестирую страницу КЛАРА-КРОСС" classname="features_for_table.Тест страницы КЛАРА-КРОС" time="3.817" StartDate="20231012112913" timestamp="2023-10-12T11:29:13" EndDate="20231012112917"/>
 	</testsuite>
-	<testsuite name="Закрытие базы после тестов" errors="0" skipped="0" tests="1" failures="0" time="5.756">
-		<testcase name="Я закрываю базу после окончания тестирования" classname="Закрытие базы после тестов" time="5.756" StartDate="20231010104742" timestamp="2023-10-10T10:47:42" EndDate="20231010104748"/>
+	<testsuite name="Тест страницы НЕРПА" errors="0" skipped="0" tests="1" failures="0" time="6.987">
+		<testcase name="Я тестирую страницу НЕРПА" classname="features_for_table.Тест страницы НЕРПА" time="6.987" StartDate="20231012112917" timestamp="2023-10-12T11:29:17" EndDate="20231012112924"/>
+	</testsuite>
+	<testsuite name="Тест страницы НЕРПАКО" errors="0" skipped="0" tests="1" failures="0" time="4.264">
+		<testcase name="Я тестирую страницу НЕРПАКО" classname="features_for_table.Тест страницы НЕРПАКО" time="4.264" StartDate="20231012112924" timestamp="2023-10-12T11:29:24" EndDate="20231012112928"/>
+	</testsuite>
+	<testsuite name="Тест страницы РЕГЛАН" errors="0" skipped="0" tests="1" failures="0" time="5.272">
+		<testcase name="Я тестирую страницу РЕГЛАН" classname="features_for_table.Тест страницы РЕГЛАН" time="5.272" StartDate="20231012112928" timestamp="2023-10-12T11:29:28" EndDate="20231012112934"/>
+	</testsuite>
+	<testsuite name="Тест страницы РЕГУЛЯР" errors="0" skipped="0" tests="1" failures="0" time="5.058">
+		<testcase name="Я Тестирую страницу РЕГУЛЯР" classname="features_for_table.Тест страницы РЕГУЛЯР" time="5.058" StartDate="20231012112934" timestamp="2023-10-12T11:29:34" EndDate="20231012112939"/>
+	</testsuite>
+	<testsuite name="Тест страницы ТЮЛЬПАН" errors="0" skipped="0" tests="1" failures="0" time="4.148">
+		<testcase name="Я тестирую страницу ТЮЛЬПАН" classname="features_for_table.Тест страницы ТЮЛЬПАН" time="4.148" StartDate="20231012112939" timestamp="2023-10-12T11:29:39" EndDate="20231012112943"/>
+	</testsuite>
+	<testsuite name="Тест страницы УКОЛ" errors="0" skipped="0" tests="1" failures="0" time="5.487">
+		<testcase name="Я тестирую страницу УКОЛ" classname="features_for_table.Тест страницы УКОЛ" time="5.487" StartDate="20231012112944" timestamp="2023-10-12T11:29:44" EndDate="20231012112949"/>
+	</testsuite>
+	<testsuite name="Закрытие базы после тестов" errors="0" skipped="0" tests="1" failures="0" time="5.576">
+		<testcase name="Я закрываю базу после окончания тестирования" classname="features_for_table.Закрытие базы после тестов" time="5.576" StartDate="20231012112949" timestamp="2023-10-12T11:29:49" EndDate="20231012112955"/>
 	</testsuite>
 </testsuites>

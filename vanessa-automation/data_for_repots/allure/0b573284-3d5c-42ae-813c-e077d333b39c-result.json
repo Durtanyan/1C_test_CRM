@@ -1,0 +1,64 @@
+{
+	"uuid": "0b573284-3d5c-42ae-813c-e077d333b39c",
+	"historyId": "Закрытие базы после тестов.Я закрываю базу после окончания тестирования",
+	"name": "Я закрываю базу после окончания тестирования",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1697099251350,
+	"stop": 1697099256305,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я закрываю TestClient \"crm_test\"",
+			"start": 1697099251351,
+			"stop": 1697099256304,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "crm_test"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Я закрываю базу после окончания тестирования"
+		},
+		{
+			"name": "feature",
+			"value": "Я закрываю базу после окончания тестирования"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features_for_module_verosa"
+		},
+		{
+			"name": "host",
+			"value": "HS-DVL02"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

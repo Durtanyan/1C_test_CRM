@@ -1,0 +1,248 @@
+{
+	"uuid": "87c16508-dc17-40ea-b2bd-a4e792ceb816",
+	"historyId": "Подключение к базе и переход на начальную позицию.Я подключаюсь к базе и перехожу на начальную позицию теста",
+	"name": "Я подключаюсь к базе и перехожу на начальную позицию теста",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1697099177008,
+	"stop": 1697099228764,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И Я подключаюсь к базе CRM",
+			"start": 1697099177009,
+			"stop": 1697099216949,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я подключаю профиль TestClient \"crm_test\"",
+					"start": 1697099177009,
+					"stop": 1697099216949,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "crm_test"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю 'Продажи' 'Заказы клиентов'",
+			"start": 1697099217221,
+			"stop": 1697099217311,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Продажи"
+				},
+				{
+					"name": "Парам2",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Заказы клиентов'",
+			"start": 1697099217312,
+			"stop": 1697099223555,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я активизирую поле с именем \"СписокНомер\"",
+			"start": 1697099223555,
+			"stop": 1697099223563,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				},
+				{
+					"name": "Парам2",
+					"value": "СписокНомер"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я выбираю текущую строку",
+			"start": 1697099223563,
+			"stop": 1697099223585,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Заказ клиента 0000-000004 от *'",
+			"start": 1697099223586,
+			"stop": 1697099228298,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ клиента 0000-000004 от *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно 'Заказ клиента 0000-000004 от *'",
+			"start": 1697099228299,
+			"stop": 1697099228302,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ клиента 0000-000004 от *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ПодменюЗаполнитьСмТакже_Авто_7C4F4C891611653402FE23166BB9508E'",
+			"start": 1697099228302,
+			"stop": 1697099228314,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПодменюЗаполнитьСмТакже_Авто_7C4F4C891611653402FE23166BB9508E"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно 'Загрузка ВЕРОСА для расчета стоимости ЕРП'",
+			"start": 1697099228315,
+			"stop": 1697099228764,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Загрузка ВЕРОСА для расчета стоимости ЕРП"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Я подключаюсь к базе и перехожу на начальную позицию теста"
+		},
+		{
+			"name": "feature",
+			"value": "Я подключаюсь к базе и перехожу на начальную позицию теста"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features_for_module_verosa"
+		},
+		{
+			"name": "host",
+			"value": "HS-DVL02"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

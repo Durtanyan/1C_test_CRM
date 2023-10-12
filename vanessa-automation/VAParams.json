@@ -3,7 +3,7 @@
 	"Lang": "ru",
 	"DebugLog": true,
 	"ВерсияVA": "ver 1.2.040.20",
-	"КаталогФич": ".\\features_for_tests\\features_for_table",
+	"КаталогФич": ".\\features_for_tests\\test_package",
 	"ДобавлятьКИмениСценарияУсловияВыгрузки": false,
 	"ЗаписыватьВидеоВыполненияТестов": false,
 	"КоличествоКадровВидеоВыполненияТестов": 5,
@@ -136,7 +136,7 @@
 		".\\features\\Libraries",
 		".\\features_for_tests\\features",
 		".\\features_for_tests\\export_scenarios",
-		".\\features_for_tests\\features_for_table"
+		".\\features_for_tests\\test_package"
 	],
 	"СписокТеговИсключение": [
 		"IgnoreOnCIMainBuild"

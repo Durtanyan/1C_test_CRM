@@ -1,0 +1,209 @@
+{
+	"uuid": "f9f5d986-67aa-4223-9e4f-698a6b8983a8",
+	"historyId": "Проверка загрузки.Проверяю загрузку данных",
+	"name": "Проверяю загрузку данных",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1697099229613,
+	"stop": 1697099231476,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Сработал дебаг!!!",
+		"trace": "{ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}: Сработал дебаг!!!\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Загрузка ВЕРОСА для расчета стоимости ЕРП\n        ИмяАктивнойФормы: ВнешняяОбработка.ЗагрузкаВЕРОСАДляРасчетаСтоимостиЕРП.Форма.Форма\n        ИмяФичи: Проверка загрузки\n        ИмяСценария: Проверяю загрузку данных\n        НомерСтрокиДерева: 30\n        НомерСтрокиФичи: 12\n        ПолныйПутьКФиче: features_for_tests\\test_package\\features_for_module_verosa\\03 проверка загрузки данных.feature\n        ИмяФайла: D:/lukin/features_for_disigner_crm/vanessa-automation/features/Libraries/Условие/step_definitions/Условие.epf\n        ИмяПроцедуры: ЯВызываюИсключение\n        ИмяРаннера: HS-DVL02\n        ИмяКлиентаТестирования: crm_test\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"HS-DVL02:12001\";Ref=\"CRM_DEV_1\";\n        ДопПараметрыПодключения: /N \"vanessa\" /P \"vanessa12345vanessa\"\n        PIDКлиентаТестирования: 20988\n        ВерсияVA: ver 1.2.040.20\n        ВерсияПлатформы: 8.3.22.1750\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Версия8_3_17\n        ВремяРаботыСценария: 0:00:02 (ч:м:с)\n        ДатаВремяОшибки: 12.10.2023 11:27:11"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я нажимаю на кнопку с именем 'Загрузить'",
+			"start": 1697099229614,
+			"stop": 1697099229634,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Загрузить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я запоминаю значение поля с именем \"Дебаг\" как \"ЗначениеПоляДебаг\"",
+			"start": 1697099229635,
+			"stop": 1697099229766,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Дебаг"
+				},
+				{
+					"name": "Парам2",
+					"value": "ЗначениеПоляДебаг"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я запоминаю значение выражения 'НЕ ПустаяСтрока(<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"> \n<html xmlns=\"http://www.w3.org/1999/xhtml\"> \n<head> \n<title>Подробные данные об ошибке IIS 10.0 — 401.5 — Unauthorized</title> \n<style type=\"text/css\"> \n<!-- \nbody{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} \ncode{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} \n.config_source code{font-size:.8em;color:#000000;} \npre{margin:0;font-size:1.4em;word-wrap:break-word;} \nul,ol{margin:10px 0 10px 5px;} \nul.first,ol.first{margin-top:5px;} \nfieldset{padding:0 15px 10px 15px;word-break:break-all;} \n.summary-container fieldset{padding-bottom:5px;margin-top:4px;} \nlegend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} \nlegend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; \nfont-weight:bold;font-size:1em;} \na:link,a:visited{color:#007EFF;font-weight:bold;} \na:hover{text-decoration:none;} \nh1{font-size:2.4em;margin:0;color:#FFF;} \nh2{font-size:1.7em;margin:0;color:#CC0000;} \nh3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} \nh4{font-size:1.2em;margin:10px 0 5px 0; \n}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:\"trebuchet MS\",Verdana,sans-serif; \n color:#FFF;background-color:#5C87B2; \n}#content{margin:0 0 0 2%;position:relative;} \n.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} \n.content-container p{margin:0 0 10px 0; \n}#details-left{width:35%;float:left;margin-right:2%; \n}#details-right{width:63%;float:left;overflow:hidden; \n}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; \n background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; \n font-size:1em;color:#FFF;text-align:right; \n}#server_version p{margin:5px 0;} \ntable{margin:4px 0 4px 0;width:100%;border:none;} \ntd,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} \nth{width:30%;text-align:right;padding-right:2%;font-weight:bold;} \nthead th{background-color:#ebebeb;width:25%; \n}#details-right th{width:20%;} \ntable tr.alt td,table tr.alt th{} \n.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} \n.clear{clear:both;} \n.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} \n--> \n</style> \n \n</head> \n<body> \n<div id=\"content\"> \n<div class=\"content-container\"> \n  <h3>Ошибка HTTP 401.5 — Unauthorized</h3> \n  <h4>По URL-адресу, куда надо попасть, установлено приложение ISAPI или CGI, выполняющее проверку учетных данных пользователя до начала обработки данных. Данное приложение не может проверить ваши учетные данные.</h4> \n</div> \n<div class=\"content-container\"> \n <fieldset><h4>Наиболее вероятные причины:</h4> \n  <ul> \u0009<li>Специальное расширение ISAPI, приложение CGI, страница ASP или обработчик заблокировали запрос с ошибкой \"Доступ запрещен\".</li> </ul> \n </fieldset> \n</div> \n<div class=\"content-container\"> \n <fieldset><h4>Возможные решения:</h4> \n  <ul> \u0009<li>Обратитесь к поставщику расширения ISAPI, приложения CGI, страницы ASP или обработчика, блокирующего запрос.</li> \u0009<li>Создайте правило трассировки, чтобы отслеживать невыполненные запросы для этого кода состояния HTTP. Чтобы получить дополнительные сведения о создании правила трассировки для невыполненных запросов, щелкните <a href=\"http://go.microsoft.com/fwlink/?LinkID=66439\">здесь</a>. </li> </ul> \n </fieldset> \n</div> \n \n<div class=\"content-container\"> \n <fieldset><h4>Подробные сведения об ошибке:</h4> \n  <div id=\"details-left\"> \n   <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"> \n    <tr class=\"alt\"><th>Модуль</th><td>nbsp;&nbsp;&nbsp;IsapiModule</td></tr> \n    <tr><th>Уведомление</th><td>&nbsp;&nbsp;&nbsp;ExecuteRequestHandler</td></tr> \n    <tr class=\"alt\"><th>Обработчик</th><td>&nbsp;&nbsp;&nbsp;1C Web-service Extension</td></tr> \n    <tr><th>Код ошибки</th><td>&nbsp;&nbsp;&nbsp;0x00000000</td></tr> \n     \n   </table> \n  </div> \n  <div id=\"details-right\"> \n   <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"> \n    <tr class=\"alt\"><th>Запрошенный URL-адрес</th><td>&nbsp;&nbsp;&nbsp;http://HSV-WEBDF:80/UPP_Current/hs/GetQuery/GetPriceVerosa/СоздатьСпецификации</td></tr> \n    <tr><th>Физический путь</th><td>&nbsp;&nbsp;&nbsp;C:\\inetpub\\wwwroot\\UPP_Current\\hs\\GetQuery\\GetPriceVerosa\\СоздатьСпецификации</td></tr> \n    <tr class=\"alt\"><th>Метод входа</th><td>&nbsp;&nbsp;&nbsp;Анонимная</td></tr> \n    <tr><th>Пользователь, выполнивший вход</th><td>&nbsp;&nbsp;&nbsp;Анонимная</td></tr> \n     \n   </table> \n   <div class=\"clear\"></div> \n  </div> \n </fieldset> \n</div> \n \n<div class=\"content-container\"> \n <fieldset><h4>Дополнительные сведения:</h4> \n  URL-адрес, куда надо попасть, представляет собой страницу ASP или подключен к расширению ISAPI, приложению CGI либо к специализированному обработчику. Специальное расширение ISAPI, приложение CGI, страница ASP или обработчик отказали в выполнении запроса, возвратив ошибку \"Доступ запрещен\". \n  <p><a href=\"https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=401,5,0x00000000,20348\">Просмотреть дополнительные сведения &raquo;</a></p> \n  <p>Статьи базы знаний Microsoft Knowledge Base:</p> \n <ul><li>907273</li></ul> \n \n </fieldset> \n</div> \n</div> \n</body> \n</html> \n)' в переменную \"ДебагЗаполнен\"",
+			"start": 1697099229766,
+			"stop": 1697099229767,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НЕ ПустаяСтрока(<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"> \n<html xmlns=\"http://www.w3.org/1999/xhtml\"> \n<head> \n<title>Подробные данные об ошибке IIS 10.0 — 401.5 — Unauthorized</title> \n<style type=\"text/css\"> \n<!-- \nbody{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} \ncode{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} \n.config_source code{font-size:.8em;color:#000000;} \npre{margin:0;font-size:1.4em;word-wrap:break-word;} \nul,ol{margin:10px 0 10px 5px;} \nul.first,ol.first{margin-top:5px;} \nfieldset{padding:0 15px 10px 15px;word-break:break-all;} \n.summary-container fieldset{padding-bottom:5px;margin-top:4px;} \nlegend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} \nlegend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; \nfont-weight:bold;font-size:1em;} \na:link,a:visited{color:#007EFF;font-weight:bold;} \na:hover{text-decoration:none;} \nh1{font-size:2.4em;margin:0;color:#FFF;} \nh2{font-size:1.7em;margin:0;color:#CC0000;} \nh3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} \nh4{font-size:1.2em;margin:10px 0 5px 0; \n}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:\"trebuchet MS\",Verdana,sans-serif; \n color:#FFF;background-color:#5C87B2; \n}#content{margin:0 0 0 2%;position:relative;} \n.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} \n.content-container p{margin:0 0 10px 0; \n}#details-left{width:35%;float:left;margin-right:2%; \n}#details-right{width:63%;float:left;overflow:hidden; \n}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; \n background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; \n font-size:1em;color:#FFF;text-align:right; \n}#server_version p{margin:5px 0;} \ntable{margin:4px 0 4px 0;width:100%;border:none;} \ntd,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} \nth{width:30%;text-align:right;padding-right:2%;font-weight:bold;} \nthead th{background-color:#ebebeb;width:25%; \n}#details-right th{width:20%;} \ntable tr.alt td,table tr.alt th{} \n.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} \n.clear{clear:both;} \n.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} \n--> \n</style> \n \n</head> \n<body> \n<div id=\"content\"> \n<div class=\"content-container\"> \n  <h3>Ошибка HTTP 401.5 — Unauthorized</h3> \n  <h4>По URL-адресу, куда надо попасть, установлено приложение ISAPI или CGI, выполняющее проверку учетных данных пользователя до начала обработки данных. Данное приложение не может проверить ваши учетные данные.</h4> \n</div> \n<div class=\"content-container\"> \n <fieldset><h4>Наиболее вероятные причины:</h4> \n  <ul> \u0009<li>Специальное расширение ISAPI, приложение CGI, страница ASP или обработчик заблокировали запрос с ошибкой \"Доступ запрещен\".</li> </ul> \n </fieldset> \n</div> \n<div class=\"content-container\"> \n <fieldset><h4>Возможные решения:</h4> \n  <ul> \u0009<li>Обратитесь к поставщику расширения ISAPI, приложения CGI, страницы ASP или обработчика, блокирующего запрос.</li> \u0009<li>Создайте правило трассировки, чтобы отслеживать невыполненные запросы для этого кода состояния HTTP. Чтобы получить дополнительные сведения о создании правила трассировки для невыполненных запросов, щелкните <a href=\"http://go.microsoft.com/fwlink/?LinkID=66439\">здесь</a>. </li> </ul> \n </fieldset> \n</div> \n \n<div class=\"content-container\"> \n <fieldset><h4>Подробные сведения об ошибке:</h4> \n  <div id=\"details-left\"> \n   <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"> \n    <tr class=\"alt\"><th>Модуль</th><td>nbsp;&nbsp;&nbsp;IsapiModule</td></tr> \n    <tr><th>Уведомление</th><td>&nbsp;&nbsp;&nbsp;ExecuteRequestHandler</td></tr> \n    <tr class=\"alt\"><th>Обработчик</th><td>&nbsp;&nbsp;&nbsp;1C Web-service Extension</td></tr> \n    <tr><th>Код ошибки</th><td>&nbsp;&nbsp;&nbsp;0x00000000</td></tr> \n     \n   </table> \n  </div> \n  <div id=\"details-right\"> \n   <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"> \n    <tr class=\"alt\"><th>Запрошенный URL-адрес</th><td>&nbsp;&nbsp;&nbsp;http://HSV-WEBDF:80/UPP_Current/hs/GetQuery/GetPriceVerosa/СоздатьСпецификации</td></tr> \n    <tr><th>Физический путь</th><td>&nbsp;&nbsp;&nbsp;C:\\inetpub\\wwwroot\\UPP_Current\\hs\\GetQuery\\GetPriceVerosa\\СоздатьСпецификации</td></tr> \n    <tr class=\"alt\"><th>Метод входа</th><td>&nbsp;&nbsp;&nbsp;Анонимная</td></tr> \n    <tr><th>Пользователь, выполнивший вход</th><td>&nbsp;&nbsp;&nbsp;Анонимная</td></tr> \n     \n   </table> \n   <div class=\"clear\"></div> \n  </div> \n </fieldset> \n</div> \n \n<div class=\"content-container\"> \n <fieldset><h4>Дополнительные сведения:</h4> \n  URL-адрес, куда надо попасть, представляет собой страницу ASP или подключен к расширению ISAPI, приложению CGI либо к специализированному обработчику. Специальное расширение ISAPI, приложение CGI, страница ASP или обработчик отказали в выполнении запроса, возвратив ошибку \"Доступ запрещен\". \n  <p><a href=\"https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=401,5,0x00000000,20348\">Просмотреть дополнительные сведения &raquo;</a></p> \n  <p>Статьи базы знаний Microsoft Knowledge Base:</p> \n <ul><li>907273</li></ul> \n \n </fieldset> \n</div> \n</div> \n</body> \n</html> \n)"
+				},
+				{
+					"name": "Парам2",
+					"value": "ДебагЗаполнен"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если 'Да' тогда",
+			"start": 1697099229767,
+			"stop": 1697099231475,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Да"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Тогда я вызываю исключение \"Сработал дебаг!!!\"",
+					"start": 1697099229768,
+					"stop": 1697099231249,
+					"status": "failed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false,
+						"message": "Сработал дебаг!!!",
+						"trace": "{ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}: Сработал дебаг!!!\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Загрузка ВЕРОСА для расчета стоимости ЕРП\n        ИмяАктивнойФормы: ВнешняяОбработка.ЗагрузкаВЕРОСАДляРасчетаСтоимостиЕРП.Форма.Форма\n        ИмяФичи: Проверка загрузки\n        ИмяСценария: Проверяю загрузку данных\n        НомерСтрокиДерева: 30\n        НомерСтрокиФичи: 12\n        ПолныйПутьКФиче: features_for_tests\\test_package\\features_for_module_verosa\\03 проверка загрузки данных.feature\n        ИмяФайла: D:/lukin/features_for_disigner_crm/vanessa-automation/features/Libraries/Условие/step_definitions/Условие.epf\n        ИмяПроцедуры: ЯВызываюИсключение\n        ИмяРаннера: HS-DVL02\n        ИмяКлиентаТестирования: crm_test\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"HS-DVL02:12001\";Ref=\"CRM_DEV_1\";\n        ДопПараметрыПодключения: /N \"vanessa\" /P \"vanessa12345vanessa\"\n        PIDКлиентаТестирования: 20988\n        ВерсияVA: ver 1.2.040.20\n        ВерсияПлатформы: 8.3.22.1750\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Версия8_3_17\n        ВремяРаботыСценария: 0:00:02 (ч:м:с)\n        ДатаВремяОшибки: 12.10.2023 11:27:11"
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сработал дебаг!!!"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Затем я останавливаю выполнение сценария \"Broken\"",
+					"start": 1697099231475,
+					"stop": 1697099231475,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Broken"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И я жду, что в таблице 'ТаблицаВозврата' количество строк будет \"равно\" 1 в течение 120 секунд",
+			"start": 1697099231476,
+			"stop": 1697099231476,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТаблицаВозврата"
+				},
+				{
+					"name": "Парам2",
+					"value": "равно"
+				},
+				{
+					"name": "Парам3",
+					"value": 1
+				},
+				{
+					"name": "Парам4",
+					"value": 120
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Проверяю загрузку данных"
+		},
+		{
+			"name": "feature",
+			"value": "Проверяю загрузку данных"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features_for_module_verosa"
+		},
+		{
+			"name": "host",
+			"value": "HS-DVL02"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

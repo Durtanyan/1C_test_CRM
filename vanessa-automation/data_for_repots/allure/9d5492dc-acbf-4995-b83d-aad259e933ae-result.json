@@ -1,0 +1,248 @@
+{
+	"uuid": "9d5492dc-acbf-4995-b83d-aad259e933ae",
+	"historyId": "Подключение к базе и переход на начальную позицию.Я подключаюсь к базе и перехожу на начальную позицию теста",
+	"name": "Я подключаюсь к базе и перехожу на начальную позицию теста",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1697099256425,
+	"stop": 1697099308906,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И Я подключаюсь к базе CRM",
+			"start": 1697099256426,
+			"stop": 1697099296032,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я подключаю профиль TestClient \"crm_test\"",
+					"start": 1697099256426,
+					"stop": 1697099296032,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "crm_test"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю 'Продажи' 'Заказы клиентов'",
+			"start": 1697099296234,
+			"stop": 1697099296321,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Продажи"
+				},
+				{
+					"name": "Парам2",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Заказы клиентов'",
+			"start": 1697099296321,
+			"stop": 1697099302464,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я активизирую поле с именем \"СписокНомер\"",
+			"start": 1697099302464,
+			"stop": 1697099302471,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				},
+				{
+					"name": "Парам2",
+					"value": "СписокНомер"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я выбираю текущую строку",
+			"start": 1697099302471,
+			"stop": 1697099302494,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Заказ клиента 0000-000004 от *'",
+			"start": 1697099302494,
+			"stop": 1697099307290,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ клиента 0000-000004 от *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ПодменюЗаполнитьСмТакже_2'",
+			"start": 1697099307291,
+			"stop": 1697099307304,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПодменюЗаполнитьСмТакже_2"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем \"СтраницаКлапаныПожарные\"",
+			"start": 1697099307305,
+			"stop": 1697099308903,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаКлапаныПожарные"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем \"СтраницаКЭД\"",
+			"start": 1697099308903,
+			"stop": 1697099308906,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтраницаКЭД"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Я подключаюсь к базе и перехожу на начальную позицию теста"
+		},
+		{
+			"name": "feature",
+			"value": "Я подключаюсь к базе и перехожу на начальную позицию теста"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features_for_table"
+		},
+		{
+			"name": "host",
+			"value": "HS-DVL02"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,184 @@
+{
+	"uuid": "c70098d4-8fe0-4e74-826b-0a9695221faa",
+	"historyId": "Проверка работы поля ввода пути к файлу.Я проверяю работу механизма выбора файла",
+	"name": "Я проверяю работу механизма выбора файла",
+	"fullName": null,
+	"testCaseId": null,
+	"start": 1697098776373,
+	"stop": 1697098776412,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И Я запоминаю значение выражения '$КаталогИнструментов$' в переменную \"ГдеНаходитсяФайл\"",
+			"start": 1697098776392,
+			"stop": 1697098776400,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "$КаталогИнструментов$"
+				},
+				{
+					"name": "Парам2",
+					"value": "ГдеНаходитсяФайл"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я запоминаю значение выражения '\\\"\\\\191038420в-СПБ.XML\\\"' в переменную \"ИмяФайла\"",
+			"start": 1697098776401,
+			"stop": 1697098776401,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "\"\\191038420в-СПБ.XML\""
+				},
+				{
+					"name": "Парам2",
+					"value": "ИмяФайла"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я запоминаю значение выражения 'D:\\lukin\\features_for_disigner_crm\\vanessa-automation + \\191038420в-СПБ.XML' в переменную \"ПолныйПутьКФайлу\"",
+			"start": 1697098776402,
+			"stop": 1697098776402,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "D:\\lukin\\features_for_disigner_crm\\vanessa-automation + \\191038420в-СПБ.XML"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПолныйПутьКФайлу"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я запоминаю значение выражения 'ПустаяСтрока(D:\\lukin\\features_for_disigner_crm\\vanessa-automation\\191038420в-СПБ.XML)' в переменную \"ПутьКФайлуНеЗаполнен\"",
+			"start": 1697098776403,
+			"stop": 1697098776403,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПустаяСтрока(D:\\lukin\\features_for_disigner_crm\\vanessa-automation\\191038420в-СПБ.XML)"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПутьКФайлуНеЗаполнен"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если 'Нет' тогда",
+			"start": 1697098776403,
+			"stop": 1697098776405,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Нет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ПутьКФайлу' я ввожу текст 'D:\\lukin\\features_for_disigner_crm\\vanessa-automation\\191038420в-СПБ.XML'",
+			"start": 1697098776405,
+			"stop": 1697098776411,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПутьКФайлу"
+				},
+				{
+					"name": "Парам2",
+					"value": "D:\\lukin\\features_for_disigner_crm\\vanessa-automation\\191038420в-СПБ.XML"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Я проверяю работу механизма выбора файла"
+		},
+		{
+			"name": "feature",
+			"value": "Я проверяю работу механизма выбора файла"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features_for_module_verosa"
+		},
+		{
+			"name": "host",
+			"value": "HS-DVL02"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}
